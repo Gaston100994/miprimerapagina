@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi primer sitio Web</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header class="container-nav">
+            <nav class="navbar">
+                <a href="#" class="brand">Mi pagina web</a>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+            <button class="botton-menu-toogle">Menu</button>
+        </header>
+        <main>
+            <div class="container">
+                <h1>Bienvenido a mi primer sitio web</h1>
+                <section>
+                    <h2>Presentación</h2>
+                    <p>Soy Gastón , y ésta es mi primera pagina web</p>
+                    <p>Estoy aprendiendo desarrollo web para crear sitios web visiualmente y funcionales </p>
+                </section>
+                <section>
+                    <h2>Lo que se viene...</h2>
+                    <p>A lo largo de este curso, estare aprendiendo HTML. CSS, y JavaScript. Estos lenguajes me ayudaran a crear una base sólida en el desarrollo web front-end.</p>
+                </section>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/D1_tbBL56GQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </main>   
+
+        <footer>
+            <form id="myForm">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Enviar</button>
+              </form>
+              <form id="haz.click">
+                <button onclick="showAlert()" aria-label="haz click en mí">¡Haz click en mí!</button>
+              </form>
+        </footer>
+       
+     <script src="script.js"></script> 
+
+    </body>
+</html>
